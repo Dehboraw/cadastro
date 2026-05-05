@@ -16,10 +16,16 @@
 
             var validacep = /^[0-9]{8}$/;
 
-            const link = 'https://viacep.com.br/ws/' + cep + '/json/?callback=preencherEndereco'
+            if (validacep.test(cep)){
+                const link = 'https://viacep.com.br/ws/' + cep + '/json/?callback=preencherEndereco'
             var script = document.createElement("script")
             script.src = link
             document.body.appendChild(script)
+            } else  {
+                resposta.textContent = "CEP digitado incorretamente!"
+                document.getElementById("cep").value = ""
+            }
+
         }
         function preencherEndereco(conteudo){
             if(!("erro" in conteudo)){

@@ -49,6 +49,10 @@ form label {
     margin-bottom: 8px;
 }
 
+p{
+    color: red;
+
+} 
 /* Estilizando todos os inputs de texto, data, email, etc. */
 input[type="text"],
 input[type="email"],
