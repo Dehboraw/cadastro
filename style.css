@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f4f7f6; /* Um branco levemente acinzentado, mais confortável */
+    background-color: #f4f7f6; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,10 +20,10 @@ body {
 main {
     background-color: #ffffff;
     width: 100%;
-    max-width: 50%; /* Mantém o formulário centralizado e elegante */
+    max-width: 50%; 
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Sombra bem suave */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
 }
 
 h1 {
@@ -53,7 +53,6 @@ p{
     color: red;
 
 } 
-/* Estilizando todos os inputs de texto, data, email, etc. */
 input[type="text"],
 input[type="email"],
 input[type="date"],
@@ -71,7 +70,7 @@ input[type="password"],
     outline: none;
 }
 
-/* Efeito de foco: quando o usuário clica no campo */
+
 input:focus {
     border-color: #3182ce;
     box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
@@ -81,7 +80,7 @@ input:focus {
     width: 100%;
     padding: 14px;
     margin-top: 10px;
-    background-color: #3182ce; /* Azul sóbrio e moderno */
+    background-color: #3182ce; 
     color: white;
     font-weight: 600;
     font-size: 16px;
@@ -93,11 +92,11 @@ input:focus {
 
 .btn_enviar:hover {
     background-color: #2b6cb0;
-    transform: translateY(-2px); /* Efeito de levante em vez de crescer muito */
+    transform: translateY(-2px); 
     box-shadow: 0 4px 12px rgba(49, 130, 206, 0.3);
 }
 
-/* Pequeno ajuste para o campo de Estado que é menor */
+
 #estado {
     width: 80px;
 }
