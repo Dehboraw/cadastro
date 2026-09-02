@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f4f7f6; 
+    background-color: #fcd5ce; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,23 +18,23 @@ body {
 }
 
 main {
-    background-color: #ffffff;
-    width: 100%;
+    background-color: #f8edeb;
+    width: 40%;
     max-width: 50%; 
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 10px 25px rgba(192, 132, 132, 0.05); 
 }
 
 h1 {
-    color: #1a202c;
+    color: #fffaff;
     font-size: 1.8rem;
     margin-bottom: 8px;
     text-align: center;
 }
 
 h2 {
-    color: #4a5568;
+    color: #ffffff;
     font-size: 1.2rem;
     margin: 30px 0 15px;
     border-bottom: 1px solid #edf2f7;
@@ -45,12 +45,12 @@ form label {
     display: block;
     font-size: 14px;
     font-weight: 600;
-    color: #4a5568;
+    color: #444444;
     margin-bottom: 8px;
 }
 
 p{
-    color: red;
+    color: rgb(0, 0, 0);
 
 } 
 input[type="text"],
@@ -80,18 +80,18 @@ input:focus {
     width: 100%;
     padding: 14px;
     margin-top: 10px;
-    background-color: #3182ce; 
-    color: white;
+    background-color: #ffb5a7; 
+    color:rgb(26, 26, 26);
     font-weight: 600;
     font-size: 16px;
-    border: none;
+    border: 1.5px solid #001735;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn_enviar:hover {
-    background-color: #2b6cb0;
+    background-color: #ffa69e;
     transform: translateY(-2px); 
     box-shadow: 0 4px 12px rgba(49, 130, 206, 0.3);
 }
