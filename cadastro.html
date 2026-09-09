@@ -42,16 +42,16 @@
             const dados = {
                 nome: document.getElementById("nome").value,
                 cpf: document.getElementById("cpf").value,
-                dt_nasc: document.getElementById("dt_nasc").value,
-                email: document.getElementById("email").value,
                 celular: document.getElementById("celular").value,
-                senha: document.getElementById("senha").value,
+                email: document.getElementById("email").value,
+                senha: document.getElementById("senha").value
+                /*dt_nasc: document.getElementById("dt_nasc").value,
                 cep: document.getElementById("cep").value,
                 estado: document.getElementById("estado").value,
                 numero: document.getElementById("numero").value,
                 bairro: document.getElementById("bairro").value,
                 cidade: document.getElementById("cidade").value,
-                estado: document.getElementById("estado").value
+                estado: document.getElementById("estado").value*/
             }
             return JSON.stringify(dados)
         }
@@ -130,6 +130,7 @@
             <input type="email" id="email" required class="input_texto">
             <label for="senha">Senha</label>
             <input type="password" id="senha" required>
+            <p>Já possui cadastro? Faça o login <a href="login.html">aqui</a></p>
             <!--CEP, Rua, Número, Bairro, Cidade, Estado(UF), Senha-->
             <!--<h2>Endereço:</h2>
             <label for="cep">CEP</label>
